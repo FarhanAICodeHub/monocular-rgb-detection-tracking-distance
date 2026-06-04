@@ -6,6 +6,10 @@ integrates YOLOv11 for object detection, BoT-SORT for multi-object
 tracking, and a ResNet-18-based regression network for object distance
 estimation.
 
+## Demo Video
+
+[Download demo video](demo/demo_output.mp4)
+
 ## Overview
 
 The system takes monocular RGB video frames as input and produces an
