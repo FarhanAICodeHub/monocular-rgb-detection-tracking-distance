@@ -14,7 +14,7 @@ tracking ID, confidence score, and estimated distance in meters.
 
 ## Overall Pipeline
 
-![Overall Pipeline](figures/Overall_Framework(2).png)
+![Overall Pipeline](figures/Overall_Framework%20%282%29.png)
 
 ## Dataset
 
