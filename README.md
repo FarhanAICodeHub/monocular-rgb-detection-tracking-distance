@@ -29,6 +29,7 @@ kitti_project/
     ├── image_02/
     ├── label_02/
     └── calib/
+```
 
 ## Pipeline
 
@@ -46,7 +47,6 @@ The trained YOLOv11 detector achieved an overall mAP@0.5 of 0.958.
 The distance estimation module achieved an overall MAE of 1.01 m
 with a standard deviation of 1.30 m.
 
-
 ## Notes
 
 KITTI 3D object annotations are used only for distance supervision
@@ -59,9 +59,13 @@ Install dependencies using:
 
 ```bash
 pip install -r requirements.txt
+```
 
-Repository Structure
+## Repository Structure
+
+```text
 scripts/   Python scripts
 figures/   Paper figures
 results/   Experimental results
 configs/   Configuration files
+```
