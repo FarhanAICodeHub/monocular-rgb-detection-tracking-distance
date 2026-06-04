@@ -30,30 +30,34 @@ kitti_project/
     ├── label_02/
     └── calib/
 
-Pipeline
-Convert KITTI Tracking annotations into YOLO format.
-Train YOLOv11 for object detection.
-Apply BoT-SORT for multi-object tracking.
-Generate object-centric crops for tracked objects.
-Train a ResNet-18 regression network for distance estimation.
-Produce final output with class, ID, bounding box, confidence, and distance.
+## Pipeline
 
-Results
+1. Convert KITTI Tracking annotations into YOLO format.
+2. Train YOLOv11 for object detection.
+3. Apply BoT-SORT for multi-object tracking.
+4. Generate object-centric crops for tracked objects.
+5. Train a ResNet-18 regression network for distance estimation.
+6. Produce final output with class, ID, bounding box, confidence, and distance.
+
+## Results
 
 The trained YOLOv11 detector achieved an overall mAP@0.5 of 0.958.
+
 The distance estimation module achieved an overall MAE of 1.01 m
 with a standard deviation of 1.30 m.
 
-Notes
+
+## Notes
 
 KITTI 3D object annotations are used only for distance supervision
 during training. During inference, the system uses only monocular RGB
 images.
 
-Requirements
+## Requirements
 
 Install dependencies using:
 
+```bash
 pip install -r requirements.txt
 
 Repository Structure
