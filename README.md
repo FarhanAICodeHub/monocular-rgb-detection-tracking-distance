@@ -12,6 +12,10 @@ The system takes monocular RGB video frames as input and produces an
 object-level perception output containing object class, bounding box,
 tracking ID, confidence score, and estimated distance in meters.
 
+## Overall Pipeline
+
+![Overall Pipeline](figures/Overall_Framework(2).png)
+
 ## Dataset
 
 This project uses the KITTI Tracking dataset. The dataset is not included
