@@ -41,11 +41,16 @@ kitti_project/
 6. Produce final output with class, ID, bounding box, confidence, and distance.
 
 ## Results
+## Results
 
 The trained YOLOv11 detector achieved an overall mAP@0.5 of 0.958.
 
+![Detection Curves](figures/fig5_detection_curves_clean.png)
+
 The distance estimation module achieved an overall MAE of 1.01 m
 with a standard deviation of 1.30 m.
+
+![Qualitative Result](figures/fig4_qualitative_result_clean.png)
 
 ## Notes
 
