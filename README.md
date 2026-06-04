@@ -40,7 +40,7 @@ kitti_project/
 5. Train a ResNet-18 regression network for distance estimation.
 6. Produce final output with class, ID, bounding box, confidence, and distance.
 
-## Results
+
 ## Results
 
 The trained YOLOv11 detector achieved an overall mAP@0.5 of 0.958.
